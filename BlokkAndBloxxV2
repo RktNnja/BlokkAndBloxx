@@ -85,11 +85,3 @@ sTab:Button{
     loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
     end
 }
-
-sTab:Button{
-	Name = "Aimbot",
-	Description = nil,
-	Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/w2S8YyDt", true))()end)
-    end
-}
