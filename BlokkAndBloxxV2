@@ -1,0 +1,95 @@
+local CurrentVersion = "BlokkAndBloxxV2"
+
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local GUI = Mercury:Create{
+    Name = CurrentVersion,
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+local sTab = GUI:Tab{
+	Name = "Scripts",
+	Icon = "rbxassetid://8569322835"
+}
+
+sTab:Button{
+	Name = "InfYeild",
+	Description = nil,
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/infiniteyield/master/source.lua", true))()
+    end
+}
+
+sTab:Button{
+	Name = "NamelessAdmin",
+	Description = nil,
+	Callback = function()
+    eloadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+    end
+}
+
+sTab:Button{
+	Name = "3008",
+	Description = nil,
+	Callback = function()
+    
+    end
+}
+
+sTab:Button{
+	Name = "BoogaBoogaUI",
+	Description = nil,
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ssopadepollo/FreeScript/main/ThisScriptwillnotbeupdatedagain", true))()
+    end
+}
+
+sTab:Button{
+	Name = "MM2",
+	Description = nil,
+	Callback = function()
+    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+    end
+}
+
+sTab:Button{
+	Name = "Criminality",
+	Description = nil,
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/Legitinality-Source/main/Legitinality-Edited.lua"))()
+    end
+}
+
+sTab:Button{
+	Name = "DecayingWinter(key: Limbo Lust all gone.)",
+	Description = nil,
+	Callback = function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/sasquatchhtv/SasHub/main/DWScriptFree'),true))()
+    end
+}
+
+sTab:Button{
+	Name = "ButterHubLT2",
+	Description = nil,
+	Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
+    end
+}
+
+sTab:Button{
+	Name = "BABFT",
+	Description = nil,
+	Callback = function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+    end
+}
+
+sTab:Button{
+	Name = "Aimbot",
+	Description = nil,
+	Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/w2S8YyDt", true))()end)
+    end
+}
